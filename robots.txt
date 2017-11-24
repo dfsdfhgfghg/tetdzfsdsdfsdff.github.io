@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /erro
+Disallow: /img
+# Host: stasproychev.githab.io
+Crawl-delay: 3600 #скорость загрузки страницы

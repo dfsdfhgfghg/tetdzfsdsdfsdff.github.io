@@ -1,0 +1,10 @@
+User-agent: *
+Disallow: /*.jpg$
+Disallow: /*.png$
+Disallow: /erro
+Disallow: /img
+Disallow: /underconstruction
+Disallow: /underconstruction.html
+Host: stasproychev.github.io
+Sitemap: #httр://mysite.com/sitemap.xml
+Crawl-delay: 3600 #скорость загрузки страницы

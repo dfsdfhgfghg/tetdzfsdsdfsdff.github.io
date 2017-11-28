@@ -1,0 +1,38 @@
+@import url(reset.css);
+body{
+  background: #1e2d37;
+  max-width: 1000px;
+  min-height: 400px;
+  margin: 0 auto;
+}
+#under{
+ width: 200px;
+ height: 200px;
+ margin: 12% auto 0 auto;
+}
+img{
+  width: 200px;
+  background-size: 200px;
+}
+p {
+  top: 50%;
+  text-align: center;
+  font: normal 20px Arial, Verdana; 
+  color: #f8f8f8; 
+}
+p span {
+  font-size: 40px;
+  text-align: center;
+}
+@media (max-width: 780px){
+  img{
+    margin-top: 30%;
+  }
+  p {
+  margin-top: 10%;
+  }
+  p span {
+  font-size: 38px;
+  }
+}
+@media (max-width: 480px){}

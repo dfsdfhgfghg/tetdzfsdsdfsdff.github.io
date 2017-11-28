@@ -1,0 +1,174 @@
+.butt {
+ transform: translate(0px, 0px);
+ border: 3px solid #34495E;
+ border-radius: 15px;
+ background: #2C3E50;
+ font-size: 30px;
+ color: #ffffff;
+ text-decoration: none;
+ /*text-transform: uppercase;*/
+ width: 210px;
+ height: 55px;
+ display: inline-block;
+ text-align: center;
+ line-height: 55px;
+ font-family: Arial, sans-serif;
+ position: relative;
+ transition: .5s;
+ overflow: hidden;
+}
+.butt::before,
+.butt::after {
+ position: absolute;
+ content: '';
+ width: 100%;
+ height: 100%;
+ background: #34495E;
+ border-color: #34495E;
+ top: 0;
+ left: -100%;
+ opacity: .7;
+ transition: .3s;
+ z-index: -1;
+}
+.butt::after {
+ opacity: 1;
+ transition-delay: .3s;
+}
+.butt:hover {
+ color: #fff;
+}
+.butt:hover::before,
+.butt:hover::after {
+ left: 0;
+}
+@media (max-width: 780px){
+  .butt,
+  .dws span{
+    width: 99%;
+  }
+}
+.tooltip-don {
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'RalewayRegular';
+  text-decoration: underline !important;
+  color: #1f1f1f !important;
+  outline: none;
+  font-weight: normal !important;
+  font-style: normal !important;
+  text-shadow: none !important;
+}
+/* общие стили */
+.tooltip-don:before{
+  content:attr(data-title);
+  position:absolute;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 18px !important;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  display:block;
+  visibility: hidden;
+  left:50%;
+  padding: 13px;
+  top: -65px;
+  background: rgba(52,73,93,.9);
+  width: 150px;
+  height: 50px;
+  transform: translate(-50%);
+  line-height: 1.4;
+  opacity:0;
+  z-index: 1000;
+  transition:.25s ease-in-out;
+}
+.tooltip-don:after{
+  content:'';
+  display:block;
+  position:absolute;
+  left:50%;
+  margin-left: -10px;
+  transition:.25s ease-in-out;
+  opacity:0;
+  z-index: 1000;
+  top: -15px;
+  border-top:10px solid rgba(52,73,93,.9);
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom: 0;
+}
+/* стили анимации */
+.tooltip-don:hover:before {
+  opacity:1;
+  top: -60px;
+  visibility: visible;
+}
+.tooltip-don:hover:after {
+  opacity:1;
+  top: -10px;
+}
+.tooltip{
+  position: relative;
+  cursor: pointer;
+  display: inline-block;
+  font-family:'RalewayRegular';
+  text-decoration: underline !important;
+  color: #1f1f1f !important;
+  outline: none;
+  font-weight: normal !important;
+  font-style: normal !important;
+  text-shadow: none !important;
+}
+/* общие стили */
+.tooltip:before{
+  content:attr(data-title);
+  position:absolute;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 6px;
+  font-size: 18px !important;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  box-sizing:border-box;
+  display:block;
+  visibility: hidden;
+  left:50%;
+  padding: 13px;
+  bottom: 30px;
+  background: rgba(0,0,0,.8);
+  width: 150px;
+  height: 50px;
+  transform: translate(-50%);
+  line-height: 1.4;
+  opacity:0;
+  z-index: 1000;
+  transition:.25s ease-in-out;
+}
+.tooltip:after{
+  content:'';
+  display:block;
+  position:absolute;
+  left:50%;
+  margin-left: -10px;
+  transition:.25s ease-in-out;
+  opacity:0;
+  z-index: 1000;
+  bottom: 20px;
+  border-top:10px solid rgba(0,0,0,.8);
+  border-left:9px solid transparent;
+  border-right:9px solid transparent;
+  border-bottom: 0;
+}
+/* стили анимации */
+.tooltip:hover:before {
+  opacity:1;
+  bottom: 20px;
+  visibility: visible;
+}
+.tooltip:hover:after {
+  opacity:1;
+  bottom: 10px;
+}

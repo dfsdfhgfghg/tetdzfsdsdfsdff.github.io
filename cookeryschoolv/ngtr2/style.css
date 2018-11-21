@@ -1,0 +1,169 @@
+		body{
+	margin: 0 auto;
+	padding: 0;
+	font-family: Arial, Tahoma, Helvetica, sans-serif !important;
+	text-size-adjust: none;
+}
+img {display:block;}
+.header, .blok-1, .courses, .footer, .blok-2, .blok-3, .blok-4, .blok-5{
+	max-width: 565px;
+	min-width: 380px;
+}
+.blok-2 h1, .blok-2 p, .blok-2 a{
+	text-align: center;
+}
+ul li{
+	font-family: Arial;
+	font-style: normal;
+	font-weight: normal;
+	line-height: normal;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+@media only screen and (max-width: 530px) {
+	h1, h2, h3, p{
+		padding-left: 15px !important;
+		padding-right: 15px !important;
+	}
+	.header, .blok-1, .courses, .footer, .blok-2, .blok-3, .blok-4, .blok-5{
+		width: 100% !important;
+		max-width: 100% !important;
+	}
+	.header td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding-top: 5px !important;
+	  padding-bottom: 10px !important;
+	  text-align: center !important;
+	}
+	.header img{
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+	.header a{
+		font-size: 18px;
+		text-align: center !important;
+	}
+	.blok-1{padding-bottom: 15px !important;}
+	.blok-1 td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding: 0px !important;
+	}
+	.blok-1 h1{text-align: center !important; padding-left: 15px; padding-right: 15px;}
+	.blok-1 p{padding-left: 15px; padding-right: 15px;}
+	.author img{
+		padding-top: 15px !important;
+		text-align: center !important;
+		margin: 0 auto !important;
+	}
+	.author{text-align: center !important;}
+	.courses td{
+		width: 100% !important;
+		max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding-left: 0px !important;
+	  padding-right: 0px !important;
+	}
+	.courses img{
+		width: 300px !important;
+		max-width: 100% !important;
+	  height: auto !important;
+	}
+	.courses h1, .courses p{
+		padding-left: 12px !important;
+	  padding-right: 12px !important;
+	}
+	.courses a{
+		width: 300px !important;
+		max-width: 100% !important;
+	  height: auto !important;
+	}
+	.footer td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  text-align: center !important;
+	}
+	.blok-2 td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  height: auto !important;
+	  max-height: 200px !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding-top: 0px !important;
+	  padding-left: 0px !important;
+	}
+	.blok-2 h1{
+	  padding-top: 100px !important;
+	  padding-left: 0px !important;
+	}
+	.blok-2{
+	  background-size: 530px 100% !important;
+	  background-position: 50% !important;
+	}
+	.blok-3 td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding: 0px !important;
+	}
+	.blok-4 td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  height: 400px !important;
+	  max-height: 800px !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding-top: 0px !important;
+	  padding-left: 0px !important;
+	}
+	.blok-4 h1{
+	  padding-top: 30px !important;
+	  padding-left: 0px !important;
+	}
+	.blok-4{
+	  background-size: 700px 400px !important;
+	  background-position: 50% !important;
+	}
+	.blok-5 td{
+		width: 100% !important;
+	  max-width: 100% !important;
+	  display: block !important;
+	  float: none !important;
+	  margin: 0 auto !important;
+	  padding-top: 8px !important;
+	  padding-bottom: 8px !important;
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+	  text-align: center !important;
+	}
+	.blok-5 img{
+		width: 60% !important;
+		max-width: 60% !important;
+	  height: auto !important;
+	  margin: 0 auto !important;
+	}
+	.blok-5 h1{
+		text-align: center !important;
+		padding-bottom: 15px !important;
+		padding-left: 0px !important;
+		padding-right: 0px !important;
+	}
+
+}

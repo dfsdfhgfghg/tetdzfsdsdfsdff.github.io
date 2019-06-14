@@ -1,0 +1,39 @@
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 100;
+  font-display: swap;
+  src: local('Geometria Thin'), local('Geometria-Thin'), url(https://stasproychev.github.io/summerSalefonts/Geometria-Thin.woff2) format('woff2'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Thin.eot?#iefix') format('embedded-opentype'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Thin.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: local('Geometria Light'), local('Geometria-Light'), url(https://stasproychev.github.io/summerSalefonts/Geometria-Light.woff2) format('woff2'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Light.eot?#iefix') format('embedded-opentype'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Geometria'), local('Geometria-Regular'), url(https://stasproychev.github.io/summerSalefonts/Geometria.woff2) format('woff2'), url('https://stasproychev.github.io/summerSalefonts/Geometria.eot?#iefix') format('embedded-opentype'), url('https://stasproychev.github.io/summerSalefonts/Geometria.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: local('Geometria Medium'), local('Geometria-Medium'), url(https://stasproychev.github.io/summerSalefonts/Geometria-Medium.woff2) format('woff2'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Medium.eot?#iefix') format('embedded-opentype'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Geometria';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: local('Geometria Bold'), local('Geometria-Bold'), url(https://stasproychev.github.io/summerSalefonts/Geometria-Bold.woff2) format('woff2'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Bold.eot?#iefix') format('embedded-opentype'), url('https://stasproychev.github.io/summerSalefonts/Geometria-Bold.ttf') format('truetype');
+}
